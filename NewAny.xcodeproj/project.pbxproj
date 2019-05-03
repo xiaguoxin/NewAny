@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D4905332271AB6700F5362C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4905322271AB6700F5362C /* AppDelegate.swift */; };
+		2D4905352271AB6700F5362C /* NAPreferenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4905342271AB6700F5362C /* NAPreferenceController.swift */; };
+		2D4905372271AB6700F5362C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4905362271AB6700F5362C /* Assets.xcassets */; };
+		2D49053A2271AB6700F5362C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4905382271AB6700F5362C /* Main.storyboard */; };
+		2D4905492271AB7A00F5362C /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4905482271AB7A00F5362C /* FinderSync.swift */; };
+		2D49054E2271AB7A00F5362C /* NewAnyFinder.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2D4905462271AB7A00F5362C /* NewAnyFinder.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D49054C2271AB7A00F5362C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4905272271AB6700F5362C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4905452271AB7A00F5362C;
+			remoteInfo = NewAnyFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2D4905522271AB7A00F5362C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2D49054E2271AB7A00F5362C /* NewAnyFinder.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2D49052F2271AB6700F5362C /* NewAny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewAny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4905322271AB6700F5362C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D4905342271AB6700F5362C /* NAPreferenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAPreferenceController.swift; sourceTree = "<group>"; };
+		2D4905362271AB6700F5362C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D4905392271AB6700F5362C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D49053B2271AB6700F5362C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D49053C2271AB6700F5362C /* NewAny.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewAny.entitlements; sourceTree = "<group>"; };
+		2D4905462271AB7A00F5362C /* NewAnyFinder.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NewAnyFinder.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4905482271AB7A00F5362C /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
+		2D49054A2271AB7A00F5362C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D49054B2271AB7A00F5362C /* NewAnyFinder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewAnyFinder.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D49052C2271AB6700F5362C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4905432271AB7A00F5362C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D4905262271AB6700F5362C = {
+			isa = PBXGroup;
+			children = (
+				2D4905312271AB6700F5362C /* NewAny */,
+				2D4905472271AB7A00F5362C /* NewAnyFinder */,
+				2D4905302271AB6700F5362C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D4905302271AB6700F5362C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D49052F2271AB6700F5362C /* NewAny.app */,
+				2D4905462271AB7A00F5362C /* NewAnyFinder.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D4905312271AB6700F5362C /* NewAny */ = {
+			isa = PBXGroup;
+			children = (
+				2D4905322271AB6700F5362C /* AppDelegate.swift */,
+				2D4905342271AB6700F5362C /* NAPreferenceController.swift */,
+				2D4905362271AB6700F5362C /* Assets.xcassets */,
+				2D4905382271AB6700F5362C /* Main.storyboard */,
+				2D49053B2271AB6700F5362C /* Info.plist */,
+				2D49053C2271AB6700F5362C /* NewAny.entitlements */,
+			);
+			path = NewAny;
+			sourceTree = "<group>";
+		};
+		2D4905472271AB7A00F5362C /* NewAnyFinder */ = {
+			isa = PBXGroup;
+			children = (
+				2D4905482271AB7A00F5362C /* FinderSync.swift */,
+				2D49054A2271AB7A00F5362C /* Info.plist */,
+				2D49054B2271AB7A00F5362C /* NewAnyFinder.entitlements */,
+			);
+			path = NewAnyFinder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D49052E2271AB6700F5362C /* NewAny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D49053F2271AB6700F5362C /* Build configuration list for PBXNativeTarget "NewAny" */;
+			buildPhases = (
+				2D49052B2271AB6700F5362C /* Sources */,
+				2D49052C2271AB6700F5362C /* Frameworks */,
+				2D49052D2271AB6700F5362C /* Resources */,
+				2D4905522271AB7A00F5362C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D49054D2271AB7A00F5362C /* PBXTargetDependency */,
+			);
+			name = NewAny;
+			productName = NewAny;
+			productReference = 2D49052F2271AB6700F5362C /* NewAny.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D4905452271AB7A00F5362C /* NewAnyFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D49054F2271AB7A00F5362C /* Build configuration list for PBXNativeTarget "NewAnyFinder" */;
+			buildPhases = (
+				2D4905422271AB7A00F5362C /* Sources */,
+				2D4905432271AB7A00F5362C /* Frameworks */,
+				2D4905442271AB7A00F5362C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewAnyFinder;
+			productName = NewAnyFinder;
+			productReference = 2D4905462271AB7A00F5362C /* NewAnyFinder.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D4905272271AB6700F5362C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ilime;
+				TargetAttributes = {
+					2D49052E2271AB6700F5362C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2D4905452271AB7A00F5362C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2D49052A2271AB6700F5362C /* Build configuration list for PBXProject "NewAny" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D4905262271AB6700F5362C;
+			productRefGroup = 2D4905302271AB6700F5362C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D49052E2271AB6700F5362C /* NewAny */,
+				2D4905452271AB7A00F5362C /* NewAnyFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D49052D2271AB6700F5362C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4905372271AB6700F5362C /* Assets.xcassets in Resources */,
+				2D49053A2271AB6700F5362C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4905442271AB7A00F5362C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D49052B2271AB6700F5362C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4905352271AB6700F5362C /* NAPreferenceController.swift in Sources */,
+				2D4905332271AB6700F5362C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4905422271AB7A00F5362C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4905492271AB7A00F5362C /* FinderSync.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D49054D2271AB7A00F5362C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4905452271AB7A00F5362C /* NewAnyFinder */;
+			targetProxy = 2D49054C2271AB7A00F5362C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D4905382271AB6700F5362C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D4905392271AB6700F5362C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D49053D2271AB6700F5362C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D49053E2271AB6700F5362C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2D4905402271AB6700F5362C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NewAny/NewAny.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AVG3CA4AG7;
+				INFOPLIST_FILE = NewAny/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ilime.NewAny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2D4905412271AB6700F5362C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NewAny/NewAny.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AVG3CA4AG7;
+				INFOPLIST_FILE = NewAny/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ilime.NewAny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2D4905502271AB7A00F5362C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NewAnyFinder/NewAnyFinder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AVG3CA4AG7;
+				INFOPLIST_FILE = NewAnyFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ilime.NewAny.NewAnyFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2D4905512271AB7A00F5362C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NewAnyFinder/NewAnyFinder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AVG3CA4AG7;
+				INFOPLIST_FILE = NewAnyFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ilime.NewAny.NewAnyFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D49052A2271AB6700F5362C /* Build configuration list for PBXProject "NewAny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D49053D2271AB6700F5362C /* Debug */,
+				2D49053E2271AB6700F5362C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D49053F2271AB6700F5362C /* Build configuration list for PBXNativeTarget "NewAny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4905402271AB6700F5362C /* Debug */,
+				2D4905412271AB6700F5362C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D49054F2271AB7A00F5362C /* Build configuration list for PBXNativeTarget "NewAnyFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4905502271AB7A00F5362C /* Debug */,
+				2D4905512271AB7A00F5362C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D4905272271AB6700F5362C /* Project object */;
+}

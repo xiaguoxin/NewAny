@@ -15,7 +15,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D4905452271AB7A00F5362C"
+               BlueprintIdentifier = "2D539F58227D47790016F327"
                BuildableName = "NewAnyFinder.appex"
                BlueprintName = "NewAnyFinder"
                ReferencedContainer = "container:NewAny.xcodeproj">

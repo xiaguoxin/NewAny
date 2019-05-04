@@ -11,6 +11,7 @@ import FinderSync
 
 class FinderSync: FIFinderSync {
     
+    private let d = UserDefaults.standard
     let NewAnyFolderURL = URL(fileURLWithPath: "/Users/Shared/NewAny")
     
     override init() {
@@ -36,18 +37,16 @@ class FinderSync: FIFinderSync {
     
     override func menu(for menuKind: FIMenuKind) -> NSMenu {
         let menu = NSMenu(title: "NewAny")
-        menu.addItem(withTitle: "Example Menu Item", action: #selector(sampleAction(_:)), keyEquivalent: "")
+        let files = d.array(forKey: "NAFileList") as! [[String : String]]
+        
+        for file in files {
+            menu.addItem(withTitle: file["name"]!, action: #selector(createFile(_:)), keyEquivalent: "")
+        }
+        
         return menu
     }
     
-    @IBAction func sampleAction(_ sender: AnyObject?) {
-        let target = FIFinderSyncController.default().targetedURL()
-        let items = FIFinderSyncController.default().selectedItemURLs()
+    @objc private func createFile(_ sender: AnyObject?) {
         
-        let item = sender as! NSMenuItem
-        NSLog("sampleAction: menu item: %@, target = %@, items = ", item.title as NSString, target!.path as NSString)
-        for obj in items! {
-            NSLog("    %@", obj.path as NSString)
-        }
     }
 }

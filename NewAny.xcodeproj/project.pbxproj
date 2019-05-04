@@ -11,16 +11,16 @@
 		2D4905352271AB6700F5362C /* NAPreferenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4905342271AB6700F5362C /* NAPreferenceController.swift */; };
 		2D4905372271AB6700F5362C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4905362271AB6700F5362C /* Assets.xcassets */; };
 		2D49053A2271AB6700F5362C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4905382271AB6700F5362C /* Main.storyboard */; };
-		2D4905492271AB7A00F5362C /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4905482271AB7A00F5362C /* FinderSync.swift */; };
-		2D49054E2271AB7A00F5362C /* NewAnyFinder.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2D4905462271AB7A00F5362C /* NewAnyFinder.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2D539F5C227D47790016F327 /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D539F5B227D47790016F327 /* FinderSync.swift */; };
+		2D539F61227D47790016F327 /* NewAnyFinder.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2D539F59227D47790016F327 /* NewAnyFinder.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2D49054C2271AB7A00F5362C /* PBXContainerItemProxy */ = {
+		2D539F5F227D47790016F327 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2D4905272271AB6700F5362C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2D4905452271AB7A00F5362C;
+			remoteGlobalIDString = 2D539F58227D47790016F327;
 			remoteInfo = NewAnyFinder;
 		};
 /* End PBXContainerItemProxy section */
@@ -32,7 +32,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				2D49054E2271AB7A00F5362C /* NewAnyFinder.appex in Embed App Extensions */,
+				2D539F61227D47790016F327 /* NewAnyFinder.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,10 +47,10 @@
 		2D4905392271AB6700F5362C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D49053B2271AB6700F5362C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D49053C2271AB6700F5362C /* NewAny.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewAny.entitlements; sourceTree = "<group>"; };
-		2D4905462271AB7A00F5362C /* NewAnyFinder.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NewAnyFinder.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D4905482271AB7A00F5362C /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
-		2D49054A2271AB7A00F5362C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D49054B2271AB7A00F5362C /* NewAnyFinder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewAnyFinder.entitlements; sourceTree = "<group>"; };
+		2D539F59227D47790016F327 /* NewAnyFinder.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NewAnyFinder.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D539F5B227D47790016F327 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
+		2D539F5D227D47790016F327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D539F5E227D47790016F327 /* NewAnyFinder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewAnyFinder.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D4905432271AB7A00F5362C /* Frameworks */ = {
+		2D539F56227D47790016F327 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				2D4905312271AB6700F5362C /* NewAny */,
-				2D4905472271AB7A00F5362C /* NewAnyFinder */,
+				2D539F5A227D47790016F327 /* NewAnyFinder */,
 				2D4905302271AB6700F5362C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				2D49052F2271AB6700F5362C /* NewAny.app */,
-				2D4905462271AB7A00F5362C /* NewAnyFinder.appex */,
+				2D539F59227D47790016F327 /* NewAnyFinder.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,12 +102,12 @@
 			path = NewAny;
 			sourceTree = "<group>";
 		};
-		2D4905472271AB7A00F5362C /* NewAnyFinder */ = {
+		2D539F5A227D47790016F327 /* NewAnyFinder */ = {
 			isa = PBXGroup;
 			children = (
-				2D4905482271AB7A00F5362C /* FinderSync.swift */,
-				2D49054A2271AB7A00F5362C /* Info.plist */,
-				2D49054B2271AB7A00F5362C /* NewAnyFinder.entitlements */,
+				2D539F5B227D47790016F327 /* FinderSync.swift */,
+				2D539F5D227D47790016F327 /* Info.plist */,
+				2D539F5E227D47790016F327 /* NewAnyFinder.entitlements */,
 			);
 			path = NewAnyFinder;
 			sourceTree = "<group>";
@@ -127,20 +127,20 @@
 			buildRules = (
 			);
 			dependencies = (
-				2D49054D2271AB7A00F5362C /* PBXTargetDependency */,
+				2D539F60227D47790016F327 /* PBXTargetDependency */,
 			);
 			name = NewAny;
 			productName = NewAny;
 			productReference = 2D49052F2271AB6700F5362C /* NewAny.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D4905452271AB7A00F5362C /* NewAnyFinder */ = {
+		2D539F58227D47790016F327 /* NewAnyFinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D49054F2271AB7A00F5362C /* Build configuration list for PBXNativeTarget "NewAnyFinder" */;
+			buildConfigurationList = 2D539F62227D47790016F327 /* Build configuration list for PBXNativeTarget "NewAnyFinder" */;
 			buildPhases = (
-				2D4905422271AB7A00F5362C /* Sources */,
-				2D4905432271AB7A00F5362C /* Frameworks */,
-				2D4905442271AB7A00F5362C /* Resources */,
+				2D539F55227D47790016F327 /* Sources */,
+				2D539F56227D47790016F327 /* Frameworks */,
+				2D539F57227D47790016F327 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -148,7 +148,7 @@
 			);
 			name = NewAnyFinder;
 			productName = NewAnyFinder;
-			productReference = 2D4905462271AB7A00F5362C /* NewAnyFinder.appex */;
+			productReference = 2D539F59227D47790016F327 /* NewAnyFinder.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -164,7 +164,7 @@
 					2D49052E2271AB6700F5362C = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					2D4905452271AB7A00F5362C = {
+					2D539F58227D47790016F327 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -183,7 +183,7 @@
 			projectRoot = "";
 			targets = (
 				2D49052E2271AB6700F5362C /* NewAny */,
-				2D4905452271AB7A00F5362C /* NewAnyFinder */,
+				2D539F58227D47790016F327 /* NewAnyFinder */,
 			);
 		};
 /* End PBXProject section */
@@ -198,7 +198,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D4905442271AB7A00F5362C /* Resources */ = {
+		2D539F57227D47790016F327 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -217,21 +217,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D4905422271AB7A00F5362C /* Sources */ = {
+		2D539F55227D47790016F327 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D4905492271AB7A00F5362C /* FinderSync.swift in Sources */,
+				2D539F5C227D47790016F327 /* FinderSync.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2D49054D2271AB7A00F5362C /* PBXTargetDependency */ = {
+		2D539F60227D47790016F327 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D4905452271AB7A00F5362C /* NewAnyFinder */;
-			targetProxy = 2D49054C2271AB7A00F5362C /* PBXContainerItemProxy */;
+			target = 2D539F58227D47790016F327 /* NewAnyFinder */;
+			targetProxy = 2D539F5F227D47790016F327 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -402,7 +402,7 @@
 			};
 			name = Release;
 		};
-		2D4905502271AB7A00F5362C /* Debug */ = {
+		2D539F63227D47790016F327 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = NewAnyFinder/NewAnyFinder.entitlements;
@@ -422,7 +422,7 @@
 			};
 			name = Debug;
 		};
-		2D4905512271AB7A00F5362C /* Release */ = {
+		2D539F64227D47790016F327 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = NewAnyFinder/NewAnyFinder.entitlements;
@@ -463,11 +463,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D49054F2271AB7A00F5362C /* Build configuration list for PBXNativeTarget "NewAnyFinder" */ = {
+		2D539F62227D47790016F327 /* Build configuration list for PBXNativeTarget "NewAnyFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D4905502271AB7A00F5362C /* Debug */,
-				2D4905512271AB7A00F5362C /* Release */,
+				2D539F63227D47790016F327 /* Debug */,
+				2D539F64227D47790016F327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

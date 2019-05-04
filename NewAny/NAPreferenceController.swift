@@ -10,7 +10,7 @@ import Cocoa
 
 class NAPreferenceController: NSViewController, NSTableViewDataSource {
     
-    let d = UserDefaults.standard
+    private let d = UserDefaults.standard
     
     @IBOutlet weak var addFileTextField: NSTextField!
     @IBOutlet weak var filesTable: NSTableView!
@@ -24,6 +24,7 @@ class NAPreferenceController: NSViewController, NSTableViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         filesTable.delegate = self
         filesTable.dataSource = self
         initFileList()
@@ -41,6 +42,8 @@ class NAPreferenceController: NSViewController, NSTableViewDataSource {
         d.set(files, forKey: "NAFileList")
         
         reloadFileList()
+        
+        addFileTextField.stringValue = ""
     }
     
     @IBAction func importFile(_ sender: NSButton) {
@@ -79,6 +82,7 @@ extension NAPreferenceController: NSTableViewDelegate {
         var files = d.array(forKey: "NAFileList")!
         files.remove(at: filesTable.clickedRow)
         d.set(files, forKey: "NAFileList")
+        
         reloadFileList()
     }
 }

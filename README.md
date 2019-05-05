@@ -17,7 +17,7 @@
 
 ## Use it
 
-Go to [release page](https://github.com/ilime/GoalHub/releases)
+Go to [release page](https://github.com/ilime/NewAny/releases)
 
 After running `NewAny.app`, you have to go into your `System Preferences`.
 

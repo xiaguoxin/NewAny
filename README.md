@@ -4,7 +4,7 @@
 <h1 align="center">NewAny</h1>
 <p align="center">
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/ilime/NewAny.svg">
-  <img alt="GitHub Releases (by Release)" src="https://img.shields.io/github/downloads/ilime/NewAny/v1.0/total.svg">
+  <img alt="GitHub Releases (by Release)" src="https://img.shields.io/github/downloads/ilime/NewAny/total.svg">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" /></a>
 </p>
 <p align="center">➕ Finder sync extension let you create any files as you wish.</p>
